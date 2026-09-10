@@ -109,6 +109,8 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(fontSize: 48),
             ),
+            const SizedBox(height: 10),
+            const Text('Keep tapping to see the number grow!'),
           ],
         ),
       ),
